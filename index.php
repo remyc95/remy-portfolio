@@ -126,7 +126,7 @@
                     <li>Consistency</li>
                     <li>I'm awesome.</li>
                 </ul>
-                <blockquote>I absolutely love designing systems and coding them into action. I bring creativity, contemporary ideas, and motivation to the table!</blockquote>
+                <blockquote id="catch">I absolutely love designing systems and coding them into action. I bring creativity, contemporary ideas, and motivation to the table!</blockquote>
             </div>
 
             <div id="code_in">
