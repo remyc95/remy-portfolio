@@ -46,6 +46,10 @@ button#nav_button:hover {
     align-items: center;
 }
 
+#catch {
+	width: 65%;
+}
+
 li{
     font-size: 16px;
     font-weight: bold;
