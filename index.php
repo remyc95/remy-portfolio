@@ -28,6 +28,7 @@
 </head>
 
 <body ng-controller="myController">
+<?php include_once("analyticstracking.php") ?>
     
     <header>
         
