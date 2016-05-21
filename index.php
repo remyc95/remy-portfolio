@@ -358,7 +358,9 @@
             <div class="lang_strength_div">
                 <img src="images/programming_tech/rpg_logo.jpg" alt="as/400 logo" class="lang_strength" />
                 <div class="strength_wrapper"><div id="rpg_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
-            </div> 
+            </div>
+            
+            <button class="bar_button" data-ng-click="topLangs(); barToggle();">Hide Proficiencies</button>
             
             </div>
             
