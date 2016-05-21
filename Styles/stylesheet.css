@@ -72,7 +72,7 @@ nav ul li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 25px 16px;
+    padding: 25px 10px;
     text-decoration: none;
 }
 
@@ -121,7 +121,7 @@ nav{
 }
 
 .tech_grid_layout {
-    width: 24.5%;
+    width: 24%;
     display: inline-block;
 }
 
@@ -152,8 +152,10 @@ nav{
 }
 
 #me_img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    max-height: 400px;
+    width: auto;
     margin: auto;
     border-radius: 50%;
 }
@@ -241,7 +243,7 @@ nav{
     width: 80%;
     margin: auto;
     padding: 40px;
-    background-color: #F9FFB3;
+    background-color: #FFFC9C;
 }
 
 #contact{
