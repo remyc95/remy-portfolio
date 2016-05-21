@@ -113,7 +113,7 @@
 
         <div id="skills" class="panel_border">
 
-            <div id="hire_me" class="center">
+            <div id="hire_me">
                 
                 <div>
                     
