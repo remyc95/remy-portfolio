@@ -121,11 +121,11 @@ nav{
 }
 
 .tech_grid_layout {
-    width: 24%;
+    width: 16%;
     display: inline-block;
 }
 
-#tech_grid .tech_grid_layout img {
+.tech_grid_layout img {
     width: 80%;
     padding: 20px;
     height: auto;
@@ -376,6 +376,33 @@ button#jc_button:hover {
     text-decoration: none;
 }
 
+button.bar_button{
+    padding: 10px 15px;
+    width: 100%;
+    background: #324CE0;
+    color: white;
+    font-size: 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #737373;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+button.bar_button:hover {
+    color: #324CE0;
+    background: white;
+    border: solid 1px #737373;
+    text-decoration: none;
+}
+
 .animate-show.ng-hide {
   opacity: 0;
 
@@ -543,6 +570,118 @@ code {
 
 #uni_bq {
     font-size: 22px;
+}
+
+.strength_wrapper {
+    width: 85%;
+    height: auto;
+    display: inline-block;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 10px;
+    border: solid #EDEDED 1px;
+    float: right;
+}
+
+.lang_strength {
+    width: auto;
+    height: auto;
+    max-width: 8%;
+    max-height: 120px;;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.lang_strength_div {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 5px;
+}
+
+.strength_bar {
+    border-radius: 10px;
+    height: 60px;
+    display: inline-block;
+}
+
+#html_bar {
+    background-color: #F16529; /*#E44D26*/
+    width: 80%;
+}
+
+#css_bar {
+    background-color: #009DD9; /*#0062B3*/
+    width: 70%;
+}
+
+#js_bar {
+    background-color: #F1BF26; /*#E5A228*/
+    width: 70%;
+}
+
+#angular_bar {
+    background-color: #E03237; /*#B32E31*/
+    width: 65%;
+}
+
+#php_bar {
+    background-color: #617CBE; /*#4A659B*/
+    width: 75%;
+}
+
+#asp_bar {
+    background-color: #737373; /* #F25022 #7FBA00 #00A4EF #FFB900 #000000*/
+    width: 75%;
+}
+
+#csharp_bar {
+    background-color: #613197; /*#4D9CD4 */
+    width: 75%;
+}
+
+#jquery_bar {
+    background-color: #0868AB;
+    width: 50%;
+}
+
+#java_bar {
+    background-color: #E01C1F; /*#076CB5*/
+    width: 50%;
+}
+
+#jsp_bar {
+    background-color: #000000;
+    width: 40%;
+}
+
+#android_bar {
+    background-color: #99CC00;
+    width: 50%;
+}
+
+#sql_server_bar {
+    background-color: #DE2F29;
+    width: 75%;
+}
+
+#mysql_bar {
+    background-color: #E87B00; /*#004E61*/
+    width: 75%;
+}
+
+#oracle_bar {
+    background-color: #CD302D;
+    width: 70%;
+}
+
+#cobol_bar {
+    background-color: #005CA5;
+    width: 50%;
+}
+
+#rpg_bar {
+    background-color: #08478A;
+    width: 40%;
 }
 
 @media screen and (max-width: 992px) and (min-width: 544px){
