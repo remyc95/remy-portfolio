@@ -28,7 +28,7 @@
 </head>
 
 <body ng-controller="myController">
-<?php include_once("analyticstracking.php") ?>
+    <?php include_once("analyticstracking.php") ?>
     
     <header>
         
@@ -112,23 +112,37 @@
 
         <div id="skills" class="panel_border">
 
-            <div id="hire_me">
-                <img id="android_img" src="images/remy_android.png" alt="android me" />
-                <h3>Why hire me?</h3>
-                <ul id="double" class="div_bg">
-                    <li>Fast and effective learner</li>
-                    <li>Dynamic and flexible</li>
-                    <li>Strong communication</li>
-                    <li>Enthusiatic attitude</li>
-                    <li>Methodical</li>
-                    <li>Determined and reliable</li>
-                    <li>Envision success</li>
-                    <li>Embrace challenges</li>
-                    <li>Consistency</li>
-                    <li>I'm awesome.</li>
-                </ul>
-                <blockquote id="catch">I absolutely love designing systems and coding them into action. I bring creativity, contemporary ideas, and motivation to the table!</blockquote>
+            <div id="hire_me" class="center">
+                
+                <div>
+                    
+                    <div id="skills_list">
+                        <ul id="double" class="div_bg">
+                            <li>Fast and effective learner</li>
+                            <li>Dynamic and flexible</li>
+                            <li>Strong communication</li>
+                            <li>Enthusiatic attitude</li>
+                            <li>Methodical</li>
+                            <li>Determined and reliable</li>
+                            <li>Envision success</li>
+                            <li>Embrace challenges</li>
+                            <li>Consistency</li>
+                            <li>I'm awesome.</li>
+                        </ul>
+                        
+                        <blockquote>I absolutely love designing systems and coding them into action. I bring creativity, contemporary ideas, and motivation to the table!</blockquote>
+                    </div>
+                        
+                                    
+                    <div id="android_me_div">
+                        <img id="android_img" src="images/remy_android.png" alt="android me" />
+                    </div>
+                    
+                </div>
+                
             </div>
+            
+            <!--
 
             <div id="code_in">
 
@@ -161,7 +175,7 @@
                     <li><img src="images/programming_tech/angularjs_logo.png" alt="angularjs logo" /></li>
                     <li><img src="images/programming_tech/php_logo.png" alt="php logo" /></li>
                     <li><img src="images/programming_tech/asp.net_logo.png" alt="asp.net logo" /></li>
-                    <li><img src="images/programming_tech/csharp_logo.png" alt="csharp logo" /></li>
+                    <li><img src="images/programming_tech/csharp_logo2.png" alt="csharp logo" /></li>
                     <li><img src="images/programming_tech/jquery.gif" alt="jquery logo" /></li>
                     <li><img src="images/programming_tech/java_logo.png" alt="java logo" /></li>
                     <li><img src="images/programming_tech/jsp_logo.png" alt="jsp logo" /></li>
@@ -174,8 +188,88 @@
                 </ul>
 
             </div>
+            -->
         </div>
 
+    </div>
+    
+    <div class="nav_point" id="langs_title"></div>
+
+    <div when-visible="animateElementIn" when-not-visible="animateElementOut" class="hidden">
+
+        <div class="card_title">
+            <h2>Languages</h2>
+        </div>
+
+        <div id="languages" class="panel_border">
+             <div id="tech_grid">
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/html5_logo.png" alt="html5 logo" />
+                </div>
+                    
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/css3_logo.png" alt="css3 logo" />
+                </div>
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/js_logo.png" alt="html5 logo" />
+                </div>
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/angularjs_logo.png" alt="angularjs logo" />
+                </div>   
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/php_logo.png" alt="php logo" />
+                </div>
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/asp.net_logo.png" alt="asp.net logo" />
+                </div>
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/csharp_logo2.png" alt="csharp logo" />
+                </div>
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/jquery.gif" alt="jquery logo" />
+                </div>
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/java_logo.png" alt="java logo" />
+                </div>
+            
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/jsp_logo.png" alt="jsp logo" />
+                </div>
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/android_logo.png" alt="android logo" />
+                </div>
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/ms_sql_server_logo.png" alt="sql server logo" />
+                </div>
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/mysql_logo.png" alt="mysql logo" />
+                </div>  
+            
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/oracle_db_logo.png" alt="oracle logo" />
+                </div>
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/cobol_logo.png" alt="cobol logo" />
+                </div> 
+                
+                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                    <img src="images/programming_tech/rpg_logo.jpg" alt="as/400 logo" />
+                </div> 
+                
+            </div>
+        </div>
+            
     </div>
 
     <div class="nav_point" id="projects_title"></div>
