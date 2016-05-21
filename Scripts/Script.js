@@ -10,7 +10,7 @@ var app = angular
     //Animations
 	$scope.animation = 'bounceInLeft';
 	$scope.entry = 'zoomIn'
-	$scope.fade = 'fadeIn';
+	$scope.fade = 'fadeInLeft';
 
 	$scope.animateElementIn = function($el) {
 		$el.removeClass('hidden');
@@ -48,6 +48,20 @@ var app = angular
 	
 	//Toggle nav
 	$scope.nav_show = true;
+	
+	//Toggle languages bar div
+	$scope.toggle_bar = true;
+	
+	$scope.barToggle = function(){
+		$scope.toggle_bar = !$scope.toggle_bar;
+		
+		if($scope.toggle_bar == true){
+			$('.bar_button').html("Proficiencies");
+		}
+		else {
+			$('.bar_button').html("Back to Grid");
+		}
+	}
 
 	$scope.navToggle = function(){
 		$scope.nav_show = !$scope.nav_show;
