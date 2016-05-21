@@ -204,10 +204,6 @@
 
         <div id="languages" class="panel_border">
             
-            <button class="bar_button" data-ng-click="barToggle()">View Proficiencies</button>
-            
-            <br /><br />
-            
              <div id="tech_grid" data-ng-show="toggle_bar">
                 <div class="tech_grid_layout">
                     <img src="images/programming_tech/html5_logo.png" alt="html5 logo" />
@@ -275,10 +271,15 @@
                 
             </div>
             
+            <br />
+            
+            <button class="bar_button" data-ng-click="barToggle(); topLangs();">View Proficiencies</button>
+            
+            
             <!-- Bars -->
             <div id="bar" data-ng-hide="toggle_bar">
                 
-            <br />
+            <br /><br /><br />
             
             <div class="lang_strength_div">
                 <img src="images/programming_tech/html5_logo.png" alt="html5 logo" class="lang_strength" />
@@ -549,6 +550,8 @@
     </div>
 
     <div class="nav_point"></div>
+    
+    <h4 class="center">Built with <img src="images/programming_tech/angularjs_logo2.png" id="ang_intro" alt="angularjs logo"></h4>
 
 </body>
 
