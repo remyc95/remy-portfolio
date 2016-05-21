@@ -62,6 +62,10 @@ var app = angular
 			$('.bar_button').html("Back to Grid");
 		}
 	}
+	
+	$scope.topLangs = function () {
+		$window.location.href = '#langs_title';
+	}
 
 	$scope.navToggle = function(){
 		$scope.nav_show = !$scope.nav_show;
