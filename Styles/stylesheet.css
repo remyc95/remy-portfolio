@@ -46,10 +46,6 @@ button#nav_button:hover {
     align-items: center;
 }
 
-#catch {
-	width: 65%;
-}
-
 li{
     font-size: 16px;
     font-weight: bold;
@@ -76,7 +72,7 @@ nav ul li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 25px 17px;
+    padding: 25px 16px;
     text-decoration: none;
 }
 
@@ -101,6 +97,39 @@ nav{
 
 .center{
     text-align: center;
+}
+
+#skills_list {
+    width: 67%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#android_me_div {
+    width: 30%;
+    display: inline-block;
+    margin-top: 1.5em 10px;
+    vertical-align: bottom;
+}
+
+#android_img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.tech_grid_layout {
+    width: 24.5%;
+    display: inline-block;
+}
+
+#tech_grid .tech_grid_layout img {
+    width: 80%;
+    padding: 20px;
+    height: auto;
+    vertical-align: middle;
 }
 
 #list_me_div{
@@ -169,25 +198,6 @@ nav{
     display: block;
 }
 
-#android_img {
-    width: 28%;
-    height: auto;
-    float: right;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    border-radius: 8px;
-}
-
-.img2{
-    width: 130px;
-    height: 130px;
-    display: block;
-    float: left;
-    padding-right: 30px;
-    padding-bottom: 30px;
-}
-
 .panel_border {
     box-shadow: 0 5px 5px -5px #C9C9C9;
 }
@@ -218,15 +228,6 @@ nav{
     width: 80%;
     margin: auto;
     background-color: #97D5A3;    /*F6FFC4*/ /* FEDC3D */
-    padding-bottom: 100px;
-}
-
-#hire_me{
-    margin-bottom: 60px;
-}
-
-#code_in{
-    
 }
 
 #projects{
@@ -234,6 +235,13 @@ nav{
     margin: auto;
     padding: 40px;
     background-color: #E5906D;    /* D5C297 */
+}
+
+#languages {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    background-color: #F9FFB3;
 }
 
 #contact{
