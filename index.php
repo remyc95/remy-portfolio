@@ -203,72 +203,165 @@
         </div>
 
         <div id="languages" class="panel_border">
-             <div id="tech_grid">
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+            
+            <button class="bar_button" data-ng-click="barToggle()">View Proficiencies</button>
+            
+            <br /><br />
+            
+             <div id="tech_grid" data-ng-show="toggle_bar">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/html5_logo.png" alt="html5 logo" />
                 </div>
                     
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/css3_logo.png" alt="css3 logo" />
                 </div>
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
-                    <img src="images/programming_tech/js_logo.png" alt="html5 logo" />
+                <div class="tech_grid_layout">
+                    <img src="images/programming_tech/js_logo.png" alt="js logo" />
                 </div>
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/angularjs_logo.png" alt="angularjs logo" />
                 </div>   
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/php_logo.png" alt="php logo" />
                 </div>
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/asp.net_logo.png" alt="asp.net logo" />
                 </div>
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/csharp_logo2.png" alt="csharp logo" />
                 </div>
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/jquery.gif" alt="jquery logo" />
                 </div>
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/java_logo.png" alt="java logo" />
                 </div>
             
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/jsp_logo.png" alt="jsp logo" />
                 </div>
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/android_logo.png" alt="android logo" />
                 </div>
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/ms_sql_server_logo.png" alt="sql server logo" />
                 </div>
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/mysql_logo.png" alt="mysql logo" />
                 </div>  
             
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/oracle_db_logo.png" alt="oracle logo" />
                 </div>
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/cobol_logo.png" alt="cobol logo" />
                 </div> 
                 
-                <div when-visible="fadeIn" when-not-visible="fadeOut" class="tech_grid_layout hidden">
+                <div class="tech_grid_layout">
                     <img src="images/programming_tech/rpg_logo.jpg" alt="as/400 logo" />
                 </div> 
                 
             </div>
+            
+            <!-- Bars -->
+            <div id="bar" data-ng-hide="toggle_bar">
+                
+            <br />
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/html5_logo.png" alt="html5 logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="html_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+                
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/css3_logo.png" alt="css3 logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="css_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/js_logo.png" alt="js logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="js_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/angularjs_logo.png" alt="angularjs logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="angular_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>   
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/php_logo.png" alt="php logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="php_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/asp.net_logo.png" alt="asp.net logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="asp_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/csharp_logo2.png" alt="csharp logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="csharp_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/jquery.gif" alt="jquery logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="jquery_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/java_logo.png" alt="java logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="java_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+        
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/jsp_logo.png" alt="jsp logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="jsp_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/android_logo.png" alt="android logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="android_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/ms_sql_server_logo.png" alt="sql server logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="sql_server_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/mysql_logo.png" alt="mysql logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="mysql_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>  
+        
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/oracle_db_logo.png" alt="oracle logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="oracle_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div>
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/cobol_logo.png" alt="cobol logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="cobol_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div> 
+            
+            <div class="lang_strength_div">
+                <img src="images/programming_tech/rpg_logo.jpg" alt="as/400 logo" class="lang_strength" />
+                <div class="strength_wrapper"><div id="rpg_bar" when-visible="fadeIn" class="strength_bar hidden"></div></div>
+            </div> 
+            
+            </div>
+            
         </div>
             
     </div>
