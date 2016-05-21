@@ -38,6 +38,7 @@
                     <li><a href="#top">Home</a></li>
                     <li><a href="#about_me_title">About Me</a></li>
                     <li><a href="#skills_title">Skills</a></li>
+                    <li><a href="#langs_title">Languages</a></li>
                     <li><a href="#projects_title">Projects</a></li>
                     <li><a href="#future_title">Future</a></li>
                     <li><a href="#contact_title">Contact</a></li>
@@ -72,7 +73,7 @@
             <div id="me">
         
                 <div id="me_img_div">
-                    <img id="me_img" src="images/Prof_Square.jpg" alt="image of remy" />
+                    <center><img id="me_img" src="images/Prof_Square.jpg" alt="image of remy" /></center>
 
                     <div id="code_snippet">
                         <blockquote id="me_code">
